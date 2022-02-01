@@ -1,7 +1,13 @@
 $(function() {
     $('#bars').click(
     function(){
-      $('#slide').animate({'marginRight':'180px'},500);
-    }
+      if($('#slide').hasClass('opned')){
+        $('#slide').animate({'marginRight':'0px'},500);
+        $('#slide').removeClass('opned');
+      }else{
+        $('#slide').animate({'marginRight':'180px'},500);
+        $('#slide').addClass('opned');
+      }
+      }
   );
 });
