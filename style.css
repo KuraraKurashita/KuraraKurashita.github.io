@@ -1,42 +1,48 @@
 body{
-    margin: 0;
-}
-header{
-    background-color: rgb(75, 98, 124);
-    height: 70px;
-    margin: 0px;
-}
-ul{
     margin: 0%;
+    
 }
-a{
-    text-decoration: none;
+::selection{
+    background-color: rgb(36, 206, 141);
+    color: azure;
 }
-#header-logo{
-    float: left;
+.page-item{
+    border: rgb(104, 104, 104) solid 2px;
     height: 60px;
-    margin: 5px;
+    width: 700px;
+    margin: 20px auto 50px auto;
+    text-align: center;
+    border-radius: 40px;
+    background-size: cover;
+    transition: all ease-in-out 0.2s;
+    background-repeat: no-repeat;
+    cursor: default;
+    background-position-x: -700px;
+    background-position-y: center;
+    
 }
-.header-item{
-    list-style: none;
-    padding: 25px;
-    font-weight: 600;
-    transition: 0.2s all;
-    color: rgb(255, 255, 255);
+.page-item:hover{
+    background-position-x: center;
 }
-#slide {
-    z-index: 99;
-    cursor: pointer;
-    position: fixed;
-    top: 70px;
-    right: -180px;
-    height: 100%;
-    background: #0DCEA8;
-    width: 180px;
-    color: #fff;
-    font-size: 16px;
-  }
-  .fa-bars{
-      float: right;
-      margin: 10px;
-  }
+.page-item p{
+    font-size: 20px;
+    color: black;
+    margin: 17px;
+}
+.page-item:hover p{
+    transition: all ease-in-out 0.2s;
+    color: azure;
+    text-shadow: rgb(0, 0, 0) 0px 0px 5px;
+
+}
+#page-list{
+    margin-top: 70px;
+}
+.image{
+    background-image:url(images/button-images-background.JPG);
+    position: relative;
+}
+.blog{
+    background-image: url(images/button-blog-background.png);
+    background-repeat: no-repeat;
+}
