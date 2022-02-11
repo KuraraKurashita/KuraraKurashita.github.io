@@ -7,14 +7,15 @@
     </head>
     <body>
         <header>
-            <img id="header-logo" src="images/logo.png">
+            <a href="../index.html"><img id="header-logo" src="../images/logo.png"></a>
+            
             <i id="bars" class="fas fa-bars fa-3x"></i>
         </header>
         <div id="slide">
             <ul>
-                <a href="#"><li class="header-item">Top</li></a>
+                <a href="../index.html"><li class="header-item">Top</li></a>
                 <a href="#"><li class="header-item">Blog</li></a>
-                <a href="#"><li class="header-item">SNS</li></a>
+                <a href="../SNS/index.html"><li class="header-item">SNS</li></a>
                 <a href="#"><li class="header-item">Activity</li></a>
             </ul>            
         </div>
@@ -40,9 +41,14 @@
     margin: 0;
 }
 header{
+    z-index: 100;
     background-color: rgb(75, 98, 124);
     height: 70px;
+    width: 100%;
     margin: 0px;
+    position: fixed;
+    top: 0%;
+    right: 0%;
 }
 ul{
     margin: 0%;

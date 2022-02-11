@@ -16,6 +16,7 @@ a{
     float: left;
     height: 60px;
     margin: 5px;
+    cursor: default;
 }
 .header-item{
     list-style: none;

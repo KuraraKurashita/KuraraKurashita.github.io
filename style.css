@@ -46,3 +46,14 @@ body{
     background-image: url(images/button-blog-background.png);
     background-repeat: no-repeat;
 }
+#top-wrapper{
+    display: block;
+    margin: 80px auto;
+    border-radius: 300px;
+    background-image: url(images/不透明2048透かし.png);
+    background-size: 500px;
+    background-repeat: no-repeat;
+    height: 500px;
+    width: 500px;
+    box-shadow: inset 0px 0px 5px rgb(60, 178, 182);
+}
